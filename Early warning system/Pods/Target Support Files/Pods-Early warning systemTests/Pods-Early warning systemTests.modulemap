@@ -1,0 +1,6 @@
+framework module Pods_Early_warning_systemTests {
+  umbrella header "Pods-Early warning systemTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
