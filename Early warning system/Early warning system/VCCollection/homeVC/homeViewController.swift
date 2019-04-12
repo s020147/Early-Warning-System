@@ -145,10 +145,12 @@ class homeViewController: UIViewController,CLLocationManagerDelegate,GMSAutocomp
     func getUserImage(){
         if let user = Auth.auth().currentUser{
             let imageName = "UserImage/\(String(user.uid)).jpeg"
+            
             var storageRef = Storage.storage().reference()
             storageRef = storageRef.child(imageName)
             storageRef.getData(maxSize: 1*300*300, completion: {
                 data, error in
+                print(error?.localizedDescription)
                 if let img = UIImage(data: data!){
                     self.profilePic.image = img
                     print("success profile pic")

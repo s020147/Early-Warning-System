@@ -30,8 +30,12 @@ class SignUpViewController: FormViewController{
     override func viewDidLoad() {
         ref = Database.database().reference()
         super.viewDidLoad()
+       // FBManager.childUpdate(info: ["Email":"Xtesting@gmail.com", "fName":"Hero","gender":"Male","lName": "yamtoshi"])
+        //        passStudData()
         setupUI()
-        // Do any additional setup after loading the view.
+    }
+    func passStudData(){
+        FBManager.createUsr(emailx: "svxv1413413@gmail.com", passcodex: "123456788", fNamex: "stacey", lName: "Mom", gender: "Female")
     }
     
     func setupUI(){
@@ -58,18 +62,15 @@ class SignUpViewController: FormViewController{
         .cellUpdate({cell, row in
             self.lNameTxt = cell.textField.text
         })
-            <<< EmailRow(){ row in
+        <<< EmailRow(){ row in
                 row.title = "Email"
                 row.placeholder = "Enter Email Here"
         }
         .cellUpdate({cell, row in
             self.emailTxt = cell.textField.text
         })
-        
-        
-        
-        
     }
+    
     @IBAction func agreementBtn(_ sender: UIButton) {
         //if you figure out deselect and select switch this, if not use flag -dt
         switch sender.tag {
@@ -77,8 +78,6 @@ class SignUpViewController: FormViewController{
             agree = !agree
             if(agree == true){
                 agreeBtnOut.imageView?.image =  UIImage.init(named: "check")
-                
-                print(agreeBtnOut.imageView?.image)
             }else{
                 agreeBtnOut.imageView?.image = UIImage.init(named: "uncheck")
             }
@@ -92,11 +91,11 @@ class SignUpViewController: FormViewController{
         default:
             print("nil")
         }
-        
     }
     
     @IBAction func submitBtn(_ sender: UIButton) {
-        FBManager.createUsr(emailx: emailTxt!, passcodex: pwdTxt!, fNamex: fNameTxt!, lName: lNameTxt!, gender: genderTxt!)
+        
+        //FBManager.createUsr(emailx: emailTxt!, passcodex: pwdTxt!, fNamex: fNameTxt!, lName: lNameTxt!, gender: genderTxt!)
         navigationController?.popViewController(animated: true)
     }
     

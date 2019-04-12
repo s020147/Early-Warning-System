@@ -24,6 +24,7 @@ let googlePlaceAPIKey = "AIzaSyBpPGOphYyUrNNbYcZF1NqJtxQSXcEupfs"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
+        
         GMSServices.provideAPIKey(googlePlaceAPIKey)
         GMSPlacesClient.provideAPIKey(googlePlaceAPIKey)
         //checkAlreadyLoggedIn()

@@ -20,9 +20,10 @@ class ViewController: UIViewController,UITextFieldDelegate,CLLocationManagerDele
     var accessValid : Bool = false
     var ref: DatabaseReference!
     var locationManager = CLLocationManager()
-
     var userText : String = ""
     var passwordText: String = ""
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         ref = Database.database().reference()
@@ -37,9 +38,8 @@ class ViewController: UIViewController,UITextFieldDelegate,CLLocationManagerDele
 
     func setupForm(){
 
-        
-        
     }
+//fix login, this is wrong
     @IBAction func loginAction(_ sender: UIButton) {
         userText = userTextField.text!
         passwordText = passwordTextField.text!
@@ -52,7 +52,6 @@ class ViewController: UIViewController,UITextFieldDelegate,CLLocationManagerDele
             }else{
                 print(error?.localizedDescription)
             }
-            
         })
         }
             

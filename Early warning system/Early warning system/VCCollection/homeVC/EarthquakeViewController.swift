@@ -18,10 +18,8 @@ class EarthquakeViewController: UIViewController, GMSMapViewDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         getEarthquakeController()
-        
-        
-    
     }
+
     func getEarthquakeController(){
         Earthquake.shared.getEarthData(completionHandler:{ (earthquakeInfoArray, error) in
             if let earthArray = earthquakeInfoArray{

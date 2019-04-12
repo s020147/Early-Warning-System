@@ -16,7 +16,6 @@
 		A34FCDD7225C1B0300D995B6 /* Early_warning_systemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCDD6225C1B0300D995B6 /* Early_warning_systemTests.swift */; };
 		A34FCDE2225C41B900D995B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCDE1225C41B900D995B6 /* ViewController.swift */; };
 		A34FCDE4225C488700D995B6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCDE3225C488700D995B6 /* SignUpViewController.swift */; };
-		A34FCDEA225CFC6C00D995B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34FCDE9225CFC6C00D995B6 /* GoogleService-Info.plist */; };
 		A34FCDEF225D39F700D995B6 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCDEE225D39F700D995B6 /* homeViewController.swift */; };
 		A34FCDF2225D42F800D995B6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCDF1225D42F800D995B6 /* File.swift */; };
 		A34FCDF4225D430800D995B6 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCDF3225D430800D995B6 /* WeatherAPI.swift */; };
@@ -25,6 +24,14 @@
 		A34FCDFB225E4D6200D995B6 /* FirebaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCDFA225E4D6200D995B6 /* FirebaseAPI.swift */; };
 		A34FCDFE225EC71300D995B6 /* EarthquakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCDFD225EC71300D995B6 /* EarthquakeViewController.swift */; };
 		A34FCE00225ED40B00D995B6 /* EarthquakeAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCDFF225ED40B00D995B6 /* EarthquakeAPIHandler.swift */; };
+		A34FCE02225F937000D995B6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCE01225F937000D995B6 /* UserViewController.swift */; };
+		A34FCE04225F944E00D995B6 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCE03225F944E00D995B6 /* UserTableViewCell.swift */; };
+		A34FCE06225F9A8300D995B6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCE05225F9A8300D995B6 /* SettingViewController.swift */; };
+		A34FCE09225F9CC200D995B6 /* EditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCE08225F9CC200D995B6 /* EditUserViewController.swift */; };
+		A34FCE0D225FB60F00D995B6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCE0C225FB60F00D995B6 /* User.swift */; };
+		A34FCE10225FD81600D995B6 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCE0F225FD81600D995B6 /* FriendViewController.swift */; };
+		A34FCE12225FD84100D995B6 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34FCE11225FD84100D995B6 /* FriendTableViewCell.swift */; };
+		A34FCE142260CE3A00D995B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34FCE132260CE3A00D995B6 /* GoogleService-Info.plist */; };
 		F4B15B9D867FC8FCE4F55963 /* Pods_Early_warning_system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0874052F40C83B1F6C8AEA86 /* Pods_Early_warning_system.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +61,6 @@
 		A34FCDD8225C1B0300D995B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A34FCDE1225C41B900D995B6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A34FCDE3225C488700D995B6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		A34FCDE9225CFC6C00D995B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A34FCDEE225D39F700D995B6 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		A34FCDF1225D42F800D995B6 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		A34FCDF3225D430800D995B6 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
@@ -63,6 +69,14 @@
 		A34FCDFA225E4D6200D995B6 /* FirebaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAPI.swift; sourceTree = "<group>"; };
 		A34FCDFD225EC71300D995B6 /* EarthquakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeViewController.swift; sourceTree = "<group>"; };
 		A34FCDFF225ED40B00D995B6 /* EarthquakeAPIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeAPIHandler.swift; sourceTree = "<group>"; };
+		A34FCE01225F937000D995B6 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		A34FCE03225F944E00D995B6 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		A34FCE05225F9A8300D995B6 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A34FCE08225F9CC200D995B6 /* EditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserViewController.swift; sourceTree = "<group>"; };
+		A34FCE0C225FB60F00D995B6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A34FCE0F225FD81600D995B6 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		A34FCE11225FD84100D995B6 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		A34FCE132260CE3A00D995B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ACC5B971100D62CD81C3A39F /* Pods_Early_warning_systemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Early_warning_systemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4E90AF423B6AB2AAE61858 /* Pods-Early warning systemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Early warning systemTests.release.xcconfig"; path = "Target Support Files/Pods-Early warning systemTests/Pods-Early warning systemTests.release.xcconfig"; sourceTree = "<group>"; };
 		BBEAAA35EAC94AFE889B35C5 /* Pods-Early warning system.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Early warning system.debug.xcconfig"; path = "Target Support Files/Pods-Early warning system/Pods-Early warning system.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,19 +136,17 @@
 		A34FCDBD225C1B0100D995B6 /* Early warning system */ = {
 			isa = PBXGroup;
 			children = (
+				A34FCE0B225FA45F00D995B6 /* VCCollection */,
 				A34FCDFC225E9AE900D995B6 /* Cell */,
 				A34FCDF5225D45FB00D995B6 /* Model */,
 				A34FCDF0225D42D900D995B6 /* APIhandler */,
-				A34FCDED225D398400D995B6 /* homeVC */,
-				A34FCDEC225D395C00D995B6 /* signupAndSigninVC */,
 				A34FCDBE225C1B0100D995B6 /* AppDelegate.swift */,
 				A34FCDC2225C1B0100D995B6 /* Main.storyboard */,
 				A34FCDC8225C1B0300D995B6 /* Assets.xcassets */,
-				A34FCDE9225CFC6C00D995B6 /* GoogleService-Info.plist */,
+				A34FCE132260CE3A00D995B6 /* GoogleService-Info.plist */,
 				A34FCDCA225C1B0300D995B6 /* LaunchScreen.storyboard */,
 				A34FCDCD225C1B0300D995B6 /* Info.plist */,
 				A34FCDC5225C1B0100D995B6 /* Early_warning_system.xcdatamodeld */,
-				A34FCDFD225EC71300D995B6 /* EarthquakeViewController.swift */,
 			);
 			path = "Early warning system";
 			sourceTree = "<group>";
@@ -161,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				A34FCDEE225D39F700D995B6 /* homeViewController.swift */,
+				A34FCDFD225EC71300D995B6 /* EarthquakeViewController.swift */,
 			);
 			path = homeVC;
 			sourceTree = "<group>";
@@ -180,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				A34FCDF6225D461100D995B6 /* WeatherInfo.swift */,
+				A34FCE0C225FB60F00D995B6 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,8 +202,47 @@
 			isa = PBXGroup;
 			children = (
 				A34FCDF8225E481100D995B6 /* WeekCollectionViewCell.swift */,
+				A34FCE03225F944E00D995B6 /* UserTableViewCell.swift */,
+				A34FCE11225FD84100D995B6 /* FriendTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		A34FCE07225F9C9600D995B6 /* SettingVC */ = {
+			isa = PBXGroup;
+			children = (
+				A34FCE05225F9A8300D995B6 /* SettingViewController.swift */,
+				A34FCE08225F9CC200D995B6 /* EditUserViewController.swift */,
+			);
+			path = SettingVC;
+			sourceTree = "<group>";
+		};
+		A34FCE0A225FA44B00D995B6 /* UserVC */ = {
+			isa = PBXGroup;
+			children = (
+				A34FCE01225F937000D995B6 /* UserViewController.swift */,
+			);
+			path = UserVC;
+			sourceTree = "<group>";
+		};
+		A34FCE0B225FA45F00D995B6 /* VCCollection */ = {
+			isa = PBXGroup;
+			children = (
+				A34FCE0E225FD7FC00D995B6 /* friendVC */,
+				A34FCDEC225D395C00D995B6 /* signupAndSigninVC */,
+				A34FCDED225D398400D995B6 /* homeVC */,
+				A34FCE07225F9C9600D995B6 /* SettingVC */,
+				A34FCE0A225FA44B00D995B6 /* UserVC */,
+			);
+			path = VCCollection;
+			sourceTree = "<group>";
+		};
+		A34FCE0E225FD7FC00D995B6 /* friendVC */ = {
+			isa = PBXGroup;
+			children = (
+				A34FCE0F225FD81600D995B6 /* FriendViewController.swift */,
+			);
+			path = friendVC;
 			sourceTree = "<group>";
 		};
 		DD59E8B002A9D485BDAF2467 /* Frameworks */ = {
@@ -287,7 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A34FCDCC225C1B0300D995B6 /* LaunchScreen.storyboard in Resources */,
-				A34FCDEA225CFC6C00D995B6 /* GoogleService-Info.plist in Resources */,
+				A34FCE142260CE3A00D995B6 /* GoogleService-Info.plist in Resources */,
 				A34FCDC9225C1B0300D995B6 /* Assets.xcassets in Resources */,
 				A34FCDC4225C1B0100D995B6 /* Main.storyboard in Resources */,
 			);
@@ -414,15 +467,22 @@
 			files = (
 				A34FCDF7225D461100D995B6 /* WeatherInfo.swift in Sources */,
 				A34FCDE2225C41B900D995B6 /* ViewController.swift in Sources */,
+				A34FCE04225F944E00D995B6 /* UserTableViewCell.swift in Sources */,
+				A34FCE02225F937000D995B6 /* UserViewController.swift in Sources */,
 				A34FCDFE225EC71300D995B6 /* EarthquakeViewController.swift in Sources */,
+				A34FCE06225F9A8300D995B6 /* SettingViewController.swift in Sources */,
+				A34FCE10225FD81600D995B6 /* FriendViewController.swift in Sources */,
 				A34FCDF4225D430800D995B6 /* WeatherAPI.swift in Sources */,
+				A34FCE0D225FB60F00D995B6 /* User.swift in Sources */,
 				A34FCE00225ED40B00D995B6 /* EarthquakeAPIHandler.swift in Sources */,
 				A34FCDFB225E4D6200D995B6 /* FirebaseAPI.swift in Sources */,
 				A34FCDF2225D42F800D995B6 /* File.swift in Sources */,
 				A34FCDBF225C1B0100D995B6 /* AppDelegate.swift in Sources */,
+				A34FCE09225F9CC200D995B6 /* EditUserViewController.swift in Sources */,
 				A34FCDF9225E481100D995B6 /* WeekCollectionViewCell.swift in Sources */,
 				A34FCDE4225C488700D995B6 /* SignUpViewController.swift in Sources */,
 				A34FCDEF225D39F700D995B6 /* homeViewController.swift in Sources */,
+				A34FCE12225FD84100D995B6 /* FriendTableViewCell.swift in Sources */,
 				A34FCDC7225C1B0100D995B6 /* Early_warning_system.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
